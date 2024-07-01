@@ -14,6 +14,11 @@ lsp.configure('lua-language-server', {
             diagnostics = {
                 globals = { 'vim' }
             }
+        },
+        ['rust-analyzer'] = {
+            diagnostics = {
+                enable = true;
+            }
         }
     }
 })
